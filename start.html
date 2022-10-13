@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="description" content="Payment form">
+    <meta name="author" content="Godslove Johnson">
+    <title>Registration form</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form action="">
+      <label for="email">Email: </label>
+      <input type="email" name="email">
+      <label for="password">Password</label>
+      <input type="password" name="password">
+      <label for="names">Name and Lastname</label>
+      <input type="text" name="names">
+      <label for="dob">Date of Bith</label>
+      <input type="date" name="dob">
+      <label for="phone">Telephone number</label>
+      <input type="tel" name="phone">
+      <label for="plans">Choose a subscription plain</label>
+      <select name="plans">
+        <option value="free_plans">Free plan</option>
+        <optgroup label="Paid plans">
+          <option value="bronze">Bronze - $100</option>
+          <option value="silver">Silver - $200</option>
+          <option value="Gold">Gold - $300</option>
+        </optgroup>
+      </select>
+      <label for="pro_plan">Pro Plan</label>
+      <input type="checkbox" name="pro_plan">
+      <label for="card">Credit card number</label>
+      <input type="number" name="card">
+      <label for="cvc">CVC</label>
+      <input type="number" name="cvc">
+      <label for="expire">Expiration date</label>
+      <input type="date" name="expire">
+      <label for="billing">Billing Address</label>
+      <input type="add" name="billing">
+    </form>
+  </body>
+</html>
